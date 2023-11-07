@@ -1,0 +1,84 @@
+
+.mobilenumber{
+    padding: 1rem ;
+    cursor: pointer;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+
+}
+.number{
+    padding: 1rem 3rem;
+    cursor: pointer;
+
+}
+.medicine_name,.date,.time{
+    padding: 0.5rem 3rem;
+    cursor: pointer;
+
+}
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+}
+.dates{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.dates div{
+    display: flex;
+    justify-content: center;
+}
+.addBtn{
+    padding: 0.6rem 2rem;
+    cursor: pointer;
+    margin-top: 1rem
+}
+.container{
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    white-space: nowrap;
+    
+}
+.box{
+    border: 1px solid rgb(252, 252, 252);
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    min-width: 200px;
+    border-radius: 8px;
+}
+.renderdata{
+    color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+.days{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0rem 1rem;
+}
+.single_days{
+    background-color: black;
+    color: white;
+}
+.name,.timeDate,.time{
+    color: red;
+}
+.select_days{
+    display: flex;
+    align-items: center;
+}
