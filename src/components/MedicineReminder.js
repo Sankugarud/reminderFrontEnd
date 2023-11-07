@@ -36,7 +36,7 @@ const MedicineReminder = () => {
       setSelectedDays([]);
      
       try {
-          const response = await axios.post(`https://reminderbackend-5361.onrender.com/medicinereminder`, reminderData, {
+          const response = await axios.post(`https://reminderbackend-17oh.onrender.com/medicinereminder`, reminderData, {
               headers:{
                   'Content-Type': 'application/json',
               }
